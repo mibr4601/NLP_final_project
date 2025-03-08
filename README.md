@@ -84,14 +84,14 @@ Note: Due to time constraints, the implementation does not support loading the s
 After the DJ-Search algorithm completes, convert the results into a CSV file for analysis:
 ```
 python json_score_to_csv.py path/to/task_name.json path/to/output.csv
-``
+```
 To generate csv file that can be loaded into excel and analyzed
 
 ## LLM-Based Evaluation Folder
 
 ### Code Files
 
-####pre_process_data.ipynb
+#### pre_process_data.ipynb
 
 This file generates in the gpt_writing_prompts dataset and regenerates the stories based on the prompts to take in an appropriate amount of stories. It then saves this dataset into a csv file. This is the first file to run and the only requirement is to include a Together_API_key as mentioned, otherwise it does not require any files to be in the same directory
 
