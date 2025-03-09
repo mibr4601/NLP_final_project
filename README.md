@@ -33,6 +33,8 @@ Specifically,
 - `Llama3_2_3B_no_instruct_for_es_result.json` contains the result of getting files from elastic cloud
 - `Llama3_2_3B_no_instruct_filtered.json` has processed text
 - `Llama3_2_3B_no_instruct_final.json` has final DJ-Search result
+- `data/prompt/...` has results of running DJ-Search on engineered prompts specified in our Wiki page
+- `llama.xslx` contains a part of our analysis on results
 
 ### Step 1: Put Your Dataset into Elastic Cloud
 
