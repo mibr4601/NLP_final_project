@@ -17,7 +17,7 @@ To run this code, follow the steps below:
     The `retrieve_documents.py` file has been fully reworked to accommodate the new index structure, but the interface and usage remain consistent for compatibility.
 
 - Elastic Cloud Access:
-    - To run the algorithm from scratch, please contact me (Illia Voloshyn) with the desired input. The free tier of Elastic Cloud has some limits on public API keys, so I am unable to provide public access.
+    - We can no longer run this algorithm as of project submission since our free trial of Elastic Cloud has ended
     Precomputed similarity tables are not included due to their large size (30 GB), which could cause issues with Gradescope. However, if necessary, the Elastic Cloud can be populated with the `put_data_to_es.ipynb` and similarity table can be generated from scratch using the `generate_lookup_table.ipynb script`.
 
 - Install ollama
