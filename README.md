@@ -95,11 +95,11 @@ To generate csv file that can be loaded into excel and analyzed
 
 #### pre_process_data.ipynb
 
-This file generates in the gpt_writing_prompts dataset and regenerates the stories based on the prompts to take in an appropriate amount of stories. It then saves this dataset into a csv file. This is the first file to run and the only requirement is to include a Together_API_key as mentioned, otherwise it does not require any files to be in the same directory
+This file generates in the gpt_writing_prompts dataset and regenerates the stories based on the prompts to take in an appropriate amount of stories. It then saves this dataset into a csv file. This is the first file to run and the only requirement is to include a Together_API_key as mentioned, otherwise it does not require any files to be in the same directory. Example outputs from this file are the gpt-writing-prompts-llama.csv files. The ones with the prompt and the number corresponds to the second stage of the project where prompting was used.
 
 #### metric.ipynb
 
-This file takes in the previous file that has been saved, so ensure that those names are the same. Then, it takes that dataset and runs the questions on the dataset to get results with Reasoning, yes/no answers, the index of the text and the author of the text. Similar to above, it requires the Together_API_key, but it now additionally requires the file from the previous notebook file.
+This file takes in the previous file that has been saved, so ensure that those names are the same. Then, it takes that dataset and runs the questions on the dataset to get results with Reasoning, yes/no answers, the index of the text and the author of the text. Similar to above, it requires the Together_API_key, but it now additionally requires the file from the previous notebook file. A sample output from this script is results2.csv where we can observe all 150 of the stories and the responses.
 
 #### analysis.ipynb
 
